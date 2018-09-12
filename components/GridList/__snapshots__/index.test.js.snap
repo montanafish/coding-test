@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridList /> renders children and change item width 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  webkitoverflowscrolling: 'touch';
+}
+
+.c0 > div {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 5px;
+  max-width: 400px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:767px) {
+  .c0 > div {
+    max-width: 414px;
+  }
+}
+
+<div
+  className="c0"
+  spacing={5}
+>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<GridList /> renders children and change spacing 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  webkitoverflowscrolling: 'touch';
+}
+
+.c0 > div {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 10px;
+  max-width: 315px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:767px) {
+  .c0 > div {
+    max-width: 414px;
+  }
+}
+
+<div
+  className="c0"
+  spacing={10}
+>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<GridList /> renders children and change vertical 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  webkitoverflowscrolling: 'touch';
+}
+
+.c0 > div {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 5px;
+  max-width: 315px;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:767px) {
+  .c0 > div {
+    max-width: 414px;
+  }
+}
+
+<div
+  className="c0"
+  spacing={5}
+>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+  <div>
+    <span>
+      Home and Away
+    </span>
+  </div>
+</div>
+`;

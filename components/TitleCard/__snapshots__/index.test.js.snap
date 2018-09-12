@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TitleCard /> renders children and hide icon 1`] = `
+.c0 {
+  position: relative;
+}
+
+.c1:hover {
+  opacity: 0.8;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  height: 0.33;
+}
+
+.c2 {
+  width: 100%;
+}
+
+.c4 {
+  margin: 0;
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="c1"
+  >
+    <img
+      alt="Home and Away"
+      className="c2"
+      src="/static/images/tile-medium.jpg"
+    />
+    <div
+      className="c3"
+    >
+      <h3
+        className="c4"
+      >
+        Home and Away
+      </h3>
+    </div>
+  </a>
+</div>
+`;
