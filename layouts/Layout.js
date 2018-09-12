@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import media from 'styles/media';
+import { spaces } from 'styles/variables'
+
+import 'styles';
 
 // TODO: add header when available
 const Header = styled.div``;
@@ -13,7 +17,11 @@ const Container = styled.div`
 `;
 
 const Main = styled.div`
-  padding: 60px;
+  padding: ${spaces.desktop}px;
+
+  ${media.mobile`
+    padding: ${spaces.mobile}px;
+  `};
 `;
 
 class Layout extends React.PureComponent {
