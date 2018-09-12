@@ -1,10 +1,17 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import Fonts from 'layouts/Fonts';
+import Layout from 'layouts/Layout';
 
 class IndexPage extends React.Component {
+  componentDidMount() {
+    Fonts();
+  }
+
   render() {
     return (
-      <div>Index</div>
+      <Layout>
+        <div>Index</div>
+      </Layout>
     );
   }
 }
